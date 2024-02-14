@@ -656,6 +656,10 @@ video {
   padding-right: 9rem;
 }
 
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -728,12 +732,20 @@ video {
     width: 50%;
   }
 
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .md\:bg-pattern-desktop {
     background-image: url('../assets/images/background-pattern-desktop.svg');
   }
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:pr-0 {
+    padding-right: 0px;
   }
 
   .md\:text-5xl {
