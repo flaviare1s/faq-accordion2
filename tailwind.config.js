@@ -9,8 +9,12 @@ module.exports = {
         dark_purple: 'hsl(292, 42%, 14%)',
       },
       fontFamily: {
-        'Work_Sans': ['Work Sans', 'sans-serif']
+        'Work_Sans': ['Work Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        'pattern-mobile': ["url('../assets/images/background-pattern-mobile.svg')"],
+        'pattern-desktop': ["url('../assets/images/background-pattern-desktop.svg')"],
+      }
     },
   },
   plugins: [],
