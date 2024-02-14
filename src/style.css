@@ -5,3 +5,13 @@
 .js-accordion dd.ativo {
     display: block;
 }
+
+.js-accordion dt::after {
+    content: url('../assets/images/icon-plus.svg');
+    position: absolute;
+    right: 0;
+}
+
+.js-accordion dt.ativo::after {
+    content: url('../assets/images/icon-minus.svg');
+}
