@@ -7,10 +7,15 @@
     animation: slideDown .5s forwards;
 }
 
+.js-accordion dt {
+    padding-right: 30px;
+}
+
 .js-accordion dt::after {
     content: url('../assets/images/icon-plus.svg');
     position: absolute;
     right: 0;
+    margin-right: 10px;
 }
 
 .js-accordion dt.ativo::after {
