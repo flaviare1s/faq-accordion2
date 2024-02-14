@@ -699,6 +699,14 @@ video {
   line-height: 150%;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
 .text-dark_purple {
   --tw-text-opacity: 1;
   color: hsl(292 42% 14% / var(--tw-text-opacity));
@@ -734,6 +742,10 @@ video {
 
   .md\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .md\:bg-pattern-desktop {
