@@ -14,7 +14,10 @@ module.exports = {
       backgroundImage: {
         'pattern-mobile': ["url('../assets/images/background-pattern-mobile.svg')"],
         'pattern-desktop': ["url('../assets/images/background-pattern-desktop.svg')"],
-      }
+      },
+      fontSize : {
+        '3xl': '32px',
+      },
     },
   },
   plugins: [],
