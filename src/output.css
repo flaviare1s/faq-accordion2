@@ -776,6 +776,14 @@ video {
     padding-right: 0px;
   }
 
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
