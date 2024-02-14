@@ -4,6 +4,7 @@
 
 .js-accordion dd.ativo {
     display: block;
+    animation: slideDown .5s forwards;
 }
 
 .js-accordion dt::after {
@@ -14,4 +15,15 @@
 
 .js-accordion dt.ativo::after {
     content: url('../assets/images/icon-minus.svg');
+}
+
+@keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+    to {
+      opacity: 1;
+      max-height: 1000px;
+    }
 }
