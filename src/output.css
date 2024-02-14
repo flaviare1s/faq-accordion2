@@ -548,11 +548,16 @@ video {
   text-align: center;
 }
 
+.font-Work_Sans {
+  font-family: Work Sans, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
-.text-\[\] {
-  color: ;
+.text-grayish_purple {
+  --tw-text-opacity: 1;
+  color: hsl(292 16% 49% / var(--tw-text-opacity));
 }
